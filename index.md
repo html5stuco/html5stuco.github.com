@@ -3,24 +3,36 @@ layout: default
 title: Building HTML5 Apps
 ---
 
-Projects
----
+<header>
+  <section class="container">
+    <h1>Building HTML5 Apps</h1>  
+  </section>
+</header>
 
-<ol>
-{% for project in site.categories.projects %}
-  <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-{% endfor %}
-</ol>
+<section class="projects">
+  <section class="container">
+    <span class="arrow arr-header">&nbsp;</span>
+    <h2>Projects</h2>
+    <ol>
+    {% for project in site.categories.projects %}
+      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </section>
+</section>
 
-
-Slides
----
-<ul>
-{% for post in site.categories.slides %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-  {% unless post.hide %} 
-    <span class="unreleased">Coming soon!</span>
-  {% endunless %}
-  </li>
-{% endfor %}
-</ul>
+<section class="slides">
+  <section class="container">
+    <span class="arrow arr-projects">&nbsp;</span>
+    <h2>Slides</h2>
+    <ul>
+    {% for post in site.categories.slides reversed %}
+      {% if post.hide %}
+      <li class="unreleased"><span>{{ post.date | date: "%b %d" }}</span> &raquo; <span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      {% else %}
+      <li><span>{{ post.date | date: "%b %d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </section>
+</section>
