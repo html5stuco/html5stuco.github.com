@@ -6,7 +6,14 @@ title: Introduction to HTML5
 category: slides
 ---
 
-Building HTML5 Apps
-===
+<section class="slides layout-regular template-default">
+  <article>
+    <h1>Building HTML5 Apps</h1>
+  </article>
+</section>
 
-Welcome to Building HTML5 Apps!
+<section class="slides layout-regular template-default">
+  <article>
+    <h1>Building HTML5 Apps</h1>
+  </article>
+</section>
