@@ -4,7 +4,6 @@ style: gallery
 title: Gallery
 
 category: projects
-permalink: /projects/gallery
 ---
 
 CSS3 Image Gallery
