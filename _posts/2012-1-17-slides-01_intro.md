@@ -66,14 +66,15 @@ category: slides
 <article>
   <h3>Do 3 things:</h3>
   <ol class="build">
-    <li>Complete the survey at <a href="http://www.tinyurl.com/html5stuco-survey">tinyurl.com/html5stuco-survey</a></li>
-    <li>
-      <p></p>
-    </li>
-    <li>
-      <p></p>
-    </li>
+    <li>Come to class.</li>
+    <li>Complete the survey at <a href="http://www.tinyurl.com/html5stuco-survey">tinyurl.com/bh5a-survey</a>.</li>
+    <li>Send an email to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a> with your Andrew ID.</li>
   </ol>
+</article>
+
+<article>
+  <p class="em-txt">Thanks!</p>
+  <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a>.</p>
 </article>
 
 </section>
