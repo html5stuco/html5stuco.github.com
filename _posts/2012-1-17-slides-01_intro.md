@@ -73,6 +73,33 @@ category: slides
 </article>
 
 <article>
+  <h3>What is this class about?</h3>
+</article>
+
+<article>
+  <h3>Better design</h3>
+  <p class="source white">CSS3 effects</p>
+</article>
+
+<article>
+  <h3>Better webapps</h3>
+  <p class="source white">Location APIs, offline apps</p>
+</article>
+
+<article>
+  <h3>Better media</h3>
+  <p class="source white">Video and mnusic without flash</p>
+</article>
+
+<article>
+  <h3>Design Module: CSS3 Buttons</h3>
+</article>
+
+<article>
+  <h3>Development Module: HTML5 Forms</h3>
+</article>
+
+<article>
   <p class="em-txt">Thanks!</p>
   <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a>.</p>
 </article>
