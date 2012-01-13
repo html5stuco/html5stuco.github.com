@@ -44,4 +44,36 @@ category: slides
   </section>
 </article>
 
+<article>
+  <section class="build">
+    <p class="em-txt">Departments</p>
+    <aside class="center-txt">
+      <p>HSS &nbsp; 40</p>
+      <p>SCS &nbsp; 41</p>
+      <p>MCS &nbsp; 10</p>
+      <p>CIT &nbsp; 20</p>
+      <p>CFA &nbsp; 15</p>
+      <p>Other &nbsp; 9</p>
+    </aside>
+  </section>
+</article>
+
+<article>
+  <p class="em-txt">You're in!</p>
+  <p class="center-txt">(unofficially)</p>
+</article>
+
+<article>
+  <h3>Do 3 things:</h3>
+  <ol class="build">
+    <li>Complete the survey at <a href="http://www.tinyurl.com/html5stuco-survey">tinyurl.com/html5stuco-survey</a></li>
+    <li>
+      <p></p>
+    </li>
+    <li>
+      <p></p>
+    </li>
+  </ol>
+</article>
+
 </section>
