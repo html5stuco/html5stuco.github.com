@@ -92,6 +92,23 @@ category: slides
 </article>
 
 <article>
+  <h3>Course Structure media</h3>
+  <ul class="build">
+    <li><strong>Lectures</strong></li>
+    <li><strong>Modules</strong></li>
+      <ul>
+        <li>Design &ndash; Little big details</li>
+        <li>Development &ndash; New HTML5 features</li>
+      </ul>
+    <li><strong>Projects</strong></li>
+      <ul>
+        <li>2 small projects (first half)</li>
+        <li>1 final project (second half)</li>
+      </ul>
+  </ul>
+</article>
+
+<article>
   <h3>Design Module: CSS3 Buttons</h3>
 </article>
 
