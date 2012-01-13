@@ -92,7 +92,7 @@ category: slides
 </article>
 
 <article>
-  <h3>Course Structure media</h3>
+  <h3>Course Structure</h3>
   <ul class="build">
     <li><strong>Lectures</strong></li>
     <li><strong>Modules</strong></li>
