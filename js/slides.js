@@ -567,7 +567,8 @@ function addGeneralStyle() {
 function makeBuildLists() {
   for (var i = curSlide, slide; slide = slideEls[i]; i++) {
     var items = slide.querySelectorAll('.build > *');
-    for (var j = 0, item; item = items[j]; j++) {
+    // byee: Quick change to have stuff there by default and avoid having a blank slide.
+    for (var j = 1, item; item = items[j]; j++) {
       if (item.classList) {
         item.classList.add('to-build');
       }
