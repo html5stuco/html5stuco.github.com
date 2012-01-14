@@ -3,6 +3,7 @@ layout: project
 style: gallery
 title: Gallery
 
+permalink: /projects/gallery
 category: projects
 ---
 

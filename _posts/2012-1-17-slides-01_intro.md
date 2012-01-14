@@ -3,7 +3,7 @@ layout: slides
 group: slides
 title: Introduction to HTML5
 
-permalink: /01-intro
+permalink: /slides/01-intro
 category: slides
 ---
 

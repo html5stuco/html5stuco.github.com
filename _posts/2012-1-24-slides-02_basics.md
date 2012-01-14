@@ -4,7 +4,7 @@ layout: slides
 group: slides
 title: HTML and CSS markup
 
-permalink: /02-markup
+permalink: /slides/02-markup
 category: slides
 ---
 
