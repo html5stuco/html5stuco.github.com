@@ -5,13 +5,13 @@ title: Building HTML5 Apps
 
 <header>
   <section class="container">
+    <div class="alert-message"><strong>Hey there!</strong> This is a work in progress, it'll be much better soon!</div>
     <h1>Building HTML5 Apps</h1>  
   </section>
 </header>
 
 <section class="projects">
   <section class="container">
-    <span class="arrow arr-header">&nbsp;</span>
     <h2>Projects</h2>
     <ol>
     {% for project in site.categories.projects %}
@@ -23,7 +23,6 @@ title: Building HTML5 Apps
 
 <section class="slides">
   <section class="container">
-    <span class="arrow arr-projects">&nbsp;</span>
     <h2>Slides</h2>
     <ul>
     {% for post in site.categories.slides reversed %}

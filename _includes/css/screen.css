@@ -24,25 +24,6 @@ h1 {
   color: #F2F2F4;
 }
 
-span.arrow {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #000;
-  display: block;
-}
-
-span.arr-header {
-  position: relative;
-  border-top: 20px solid #009FFA;
-}
-
-span.arr-projects {
-  position: relative;
-  border-top: 20px solid #B0C4D5;
-}
-
 /* Index */
 header {
   background: #009FFA;
