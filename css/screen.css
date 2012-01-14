@@ -1,6 +1,5 @@
 ---
 ---
 
-{% include css/reset.css %}
+{% include css/bootstrap.css %}
 {% include css/fonts.css %}
-{% include css/screen.css %}
