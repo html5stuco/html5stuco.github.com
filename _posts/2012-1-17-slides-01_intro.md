@@ -108,12 +108,32 @@ category: slides
   </ul>
 </article>
 
-<article>
-  <h3>Design Module: CSS3 Buttons</h3>
+<article class="fill">
+  <h3>Design Module 1: Buttons</h3>
+  <img src="/img/01-button-title.jpg" alt="" />
 </article>
 
 <article>
-  <h3>Development Module: HTML5 Forms</h3>
+  <p class="center-txt" style="margin-top:40px"><strong>This is Kendra.</strong></p>
+  <img src="/img/des-kendra.jpg" alt="Kendra, DesDiver" class="centered" />
+  <p class="center-txt" style="margin-top:40px"><strong>She is a designer.</strong></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p class="center-txt" style="margin-top:40px">But she doesn't want every button to look different.</p>
+  <img src="/img/01-different-browser-buttons.png" alt="Several different browser renderings of a button control" class="centered" />
+  <p class="center-txt">Also, gray is boring.</p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <img src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
+</article>
+
+<article>
+  <h3>Development Module 1: HTML5 Forms</h3>
+  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" />
 </article>
 
 <article>
