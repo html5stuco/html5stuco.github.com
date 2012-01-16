@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header.example-navbar {
+      background: #111;
+      height: 30px;
+      color: #EEE;
+      text-shadow: none;
+      font: bold 13px/30px sans-serif;
+    }
+
+    header.example-navbar a {
+      display: inline-block;
+      color: #EEE;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+
+    header.example-navbar a:hover {
+      background: #444;
+    }
+  </style>
+  {% if page.style %}
+  <!-- Extra styles -->
+  <link rel="stylesheet" href="/css/{{ page.style }}.css">
+  {% endif %}
+
+</head>
+<body>
+  <header class="example-navbar">
+    <a class="back-link" href="/">&larr; Back to projects</a>
+  </header>
+  {{ content }}
+</body>
+</html>

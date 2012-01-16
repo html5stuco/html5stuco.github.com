@@ -1,5 +1,6 @@
 ---
-layout: project
+hide: true
+layout: example
 style: gallery
 title: Gallery
 

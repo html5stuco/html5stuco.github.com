@@ -7,12 +7,31 @@ title: Building HTML5 Apps
     <h1>Building HTML5 Apps</h1>
 </header>
 
+<section class="examples">
+  <section class="container">
+    <h2>Projects</h2>
+    <ol>
+    {% for post in site.categories.examples %}
+      {% if post.hide %}
+      <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      {% else %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+  </section>
+</section>
+
 <section class="projects">
   <section class="container">
     <h2>Projects</h2>
     <ol>
-    {% for project in site.categories.projects %}
-      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% for post in site.categories.projects %}
+      {% if post.hide %}
+      <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      {% else %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
     </ol>
   </section>
