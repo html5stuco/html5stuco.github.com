@@ -7,7 +7,6 @@ permalink: /slides/01-intro
 category: slides
 ---
 
-<section class="slides layout-regular template-default">
 <article class="dark">
   <h1>Building HTML5 Apps</h1>
   <p>Week 1 &ndash; The Basics</p>
@@ -121,5 +120,3 @@ category: slides
   <p class="em-txt">Thanks!</p>
   <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a>.</p>
 </article>
-
-</section>

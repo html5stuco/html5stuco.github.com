@@ -149,6 +149,7 @@ body {
 .slides > article.past {
   display: block;
   transform: translate(-1020px);
+  -ms-transform: translate(-1020);
   -o-transform: translate(-1020px);
   -moz-transform: translate(-1020px);
   -webkit-transform: translate3d(-1020px, 0, 0);
@@ -156,6 +157,7 @@ body {
 .slides > article.current {
   display: block;
   transform: translate(0);
+  -ms-transform: translate(0);
   -o-transform: translate(0);
   -moz-transform: translate(0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -163,6 +165,7 @@ body {
 .slides > article.next {
   display: block;
   transform: translate(1020px);
+  -ms-transform: translate(1020px);
   -o-transform: translate(1020px);
   -moz-transform: translate(1020px);
   -webkit-transform: translate3d(1020px, 0, 0);
@@ -170,6 +173,7 @@ body {
 .slides > article.far-next {
   display: block;
   transform: translate(2040px);
+  -ms-transform: translate(2040px);
   -o-transform: translate(2040px);
   -moz-transform: translate(2040px);
   -webkit-transform: translate3d(2040px, 0, 0);
@@ -179,6 +183,7 @@ body {
 .slides.layout-faux-widescreen > article.far-past {
   display: block;
   transform: translate(-2260px);
+  -ms-transform: translate(-2260px);
   -o-transform: translate(-2260px);
   -moz-transform: translate(-2260px);
   -webkit-transform: translate3d(-2260px, 0, 0);
@@ -187,6 +192,7 @@ body {
 .slides.layout-faux-widescreen > article.past {
   display: block;
   transform: translate(-1130px);
+  -ms-transform: translate(-1130px);
   -o-transform: translate(-1130px);
   -moz-transform: translate(-1130px);
   -webkit-transform: translate3d(-1130px, 0, 0);
@@ -195,6 +201,7 @@ body {
 .slides.layout-faux-widescreen > article.current {
   display: block;
   transform: translate(0);
+  -ms-transform: translate(0);
   -o-transform: translate(0);
   -moz-transform: translate(0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -203,6 +210,7 @@ body {
 .slides.layout-faux-widescreen > article.next {
   display: block;
   transform: translate(1130px);
+  -ms-transform: translate(1130px);
   -o-transform: translate(1130px);
   -moz-transform: translate(1130px);
   -webkit-transform: translate3d(1130px, 0, 0);
@@ -211,6 +219,7 @@ body {
 .slides.layout-faux-widescreen > article.far-next {
   display: block;
   transform: translate(2260px);
+  -ms-transform: translate(2260px);
   -o-transform: translate(2260px);
   -moz-transform: translate(2260px);
   -webkit-transform: translate3d(2260px, 0, 0);
