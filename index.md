@@ -8,7 +8,8 @@ title: Building HTML5 Apps
     <nav>
       <ul>
         <li><a href="#syllabus">Syllabus</a></li>
-        <li><a href="#slides">Slides &amp; Demos</a></li>
+        <li><a href="#slides">Slides</a></li>
+        <li><a href="#examples">Examples</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#resources">Resources</a></li>
       </ul>
@@ -33,6 +34,21 @@ title: Building HTML5 Apps
       {% endif %}
     {% endfor %}
     </ul>
+  </section>
+</section>
+
+<section id="examples">
+  <section class="container">
+    <h2>Projects</h2>
+    <ol>
+    {% for post in site.categories.examples %}
+      {% if post.hide %}
+      <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      {% else %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ol>
   </section>
 </section>
 
