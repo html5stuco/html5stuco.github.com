@@ -4,10 +4,7 @@ title: Building HTML5 Apps
 ---
 
 <header>
-  <section class="container">
-    <div class="alert-message"><strong>Hey there!</strong> This is a work in progress, it'll be much better soon!</div>
-    <h1>Building HTML5 Apps</h1>  
-  </section>
+    <h1>Building HTML5 Apps</h1>
 </header>
 
 <section class="projects">
