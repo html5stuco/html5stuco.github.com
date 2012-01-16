@@ -2,5 +2,5 @@
 ---
 
 {% include css/bootstrap_reset.css %}
-{% include css/bootstrap.css %}
+{% include css/screen.css %}
 {% include css/fonts.css %}

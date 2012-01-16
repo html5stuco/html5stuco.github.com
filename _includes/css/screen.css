@@ -12,28 +12,60 @@ body {
   font-size: 1em;
   line-height: 1.5;
   vertical-align: baseline;
+  min-height: 1000px;
 }
 
 html>body {
 	font-size: 16px;
 }
 
-h1 {
-	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 3em;
-  color: #F2F2F4;
-}
-
-/* Index */
-header {
-  background: #009FFA;
-}
-
 .container {
-  width: 960px;
-  padding: 10px;
+  width: 980px;
+  padding: 0 10px;
   margin: 0 auto;
-  position: relative;
-  top: -10px;
 }
+
+/* Header */
+header {
+  text-align: center;
+}
+
+nav {
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  position: fixed;
+  width: 980px;
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.1);
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.title-block {
+  margin-top: 45px;
+}
+
+.title-block h1 {
+  display: inline-block;
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 8.1em;
+  color: #aaa;
+  float: left;
+  margin-top: 20px;
+}
+
+.title-block h1:last-child {
+  float: right;
+}
+
 /* END CSS/SCREEN.CSS */

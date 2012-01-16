@@ -4,21 +4,24 @@ title: Building HTML5 Apps
 ---
 
 <header>
-    <h1>Building HTML5 Apps</h1>
+  <section class="container">
+    <nav>
+      <ul>
+        <li><a href="#syllabus">Syllabus</a></li>
+        <li><a href="#slides">Slides &amp; Demos</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+    <section class="title-block">  
+      <h1>Building</h1>
+      <img class="html5-logo" src="/img/html5_logo.jpg" />
+      <h1>Web Apps</h1>
+    </section>
+  </section>
 </header>
 
-<section class="projects">
-  <section class="container">
-    <h2>Projects</h2>
-    <ol>
-    {% for project in site.categories.projects %}
-      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-    {% endfor %}
-    </ol>
-  </section>
-</section>
-
-<section class="slides">
+<section id="slides">
   <section class="container">
     <h2>Slides</h2>
     <ul>
@@ -30,5 +33,16 @@ title: Building HTML5 Apps
       {% endif %}
     {% endfor %}
     </ul>
+  </section>
+</section>
+
+<section id="projects">
+  <section class="container">
+    <h2>Projects</h2>
+    <ol>
+    {% for project in site.categories.projects %}
+      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% endfor %}
+    </ol>
   </section>
 </section>
