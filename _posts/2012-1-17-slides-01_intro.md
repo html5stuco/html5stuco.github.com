@@ -108,6 +108,11 @@ category: slides
   </ul>
 </article>
 
+<article>
+  <h3>Development Module 1: HTML5 Forms</h3>
+  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
+</article>
+
 <article class="fill">
   <h3>Design Module 1: Buttons</h3>
   <img src="/img/01-button-title.jpg" alt="" />
@@ -129,11 +134,6 @@ category: slides
 
 <article>
   <img src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
-</article>
-
-<article>
-  <h3>Development Module 1: HTML5 Forms</h3>
-  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" />
 </article>
 
 <article>
