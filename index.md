@@ -150,8 +150,12 @@ title: Building HTML5 Apps
   <section class="container">
     <h2>Projects</h2>
     <ol>
-    {% for project in site.categories.projects %}
-      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% for post in site.categories.projects %}
+      {% if post.hide %}
+      <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      {% else %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
     </ol>
   </section>
