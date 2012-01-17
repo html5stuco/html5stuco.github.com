@@ -2,6 +2,8 @@
 layout: slides
 group: slides
 title: Introduction to HTML5
+desdive: Buttons
+devdive: Forms
 
 permalink: /slides/01-intro
 category: slides
@@ -73,22 +75,25 @@ category: slides
 </article>
 
 <article>
-  <h3>What is this class about?</h3>
+  <p class="em-txt">What is this class about?</p>
 </article>
 
-<article>
+<article class="fill">
   <h3>Better design</h3>
   <p class="source white">CSS3 effects</p>
+  <img src="/img/01-html5-nike.jpg" alt="Screenshot of nikebetterworld.com" />
 </article>
 
-<article>
+<article class="fill">
   <h3>Better webapps</h3>
   <p class="source white">Location APIs, offline apps</p>
+  <img src="/img/01-geolocation.jpg" alt="Screenshot of Google Maps" />
 </article>
 
-<article>
+<article class="fill">
   <h3>Better media</h3>
-  <p class="source white">Video and mnusic without flash</p>
+  <p class="source white">OkGo's All is Not Lost Chrome experiment <a href="http://allisnotlo.st">(allisnotlo.st)</a></p>
+  <img src="/img/01-html5experiment.jpg" alt="OkGo's All is Not Lost Chrome experiment" />
 </article>
 
 <article>
@@ -106,6 +111,11 @@ category: slides
         <li>1 final project (second half)</li>
       </ul>
   </ul>
+</article>
+
+<article>
+  <h3>Development Module 1: HTML5 Forms</h3>
+  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
 </article>
 
 <article class="fill">
@@ -129,11 +139,6 @@ category: slides
 
 <article>
   <img src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
-</article>
-
-<article>
-  <h3>Development Module 1: HTML5 Forms</h3>
-  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" />
 </article>
 
 <article>

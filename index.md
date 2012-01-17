@@ -53,7 +53,7 @@ title: Building HTML5 Apps
       <li>
         <label>Jan 24</label>
         <span class="topic">Semantic HTML</span>
-        <span class="work"><a href="http://diveintohtml5.info/semantics.html" target="_blank">Ch. 3 (Dive into HTML5)</a></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/semantics.html" target="_blank">Ch. 3 (Dive into HTML5)</a></span>
       </li>
       <li>
         <label>Jan 31</label>
@@ -73,17 +73,17 @@ title: Building HTML5 Apps
       <li>
         <label>Feb 21</label>
         <span class="topic">Responsive Web Design</span>
-        <span class="work"><a href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">&#147;Responsive Web Design&#148; by Ethan Marcotte</a></span>
+        <span class="work"><a class="external" href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">&#147;Responsive Web Design&#148; by Ethan Marcotte</a></span>
       </li>
       <li>
         <label>Feb 28</label>
         <span class="topic">Geolocation API</span>
-        <span class="work"><a href="http://diveintohtml5.info/geolocation.html" target="_blank">Ch. 6 (Dive in HTML5)</a></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/geolocation.html" target="_blank">Ch. 6 (Dive in HTML5)</a></span>
       </li>
       <li>
         <label>Mar 6</label>
         <span class="topic">Audio &amp; Video APIs</span>
-        <span class="work"><a href="http://diveintohtml5.info/video.html" target="_blank">Ch. 5 (Dive in HTML5)</a></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/video.html" target="_blank">Ch. 5 (Dive in HTML5)</a></span>
       </li>
       <li class="unreleased">
         <label>Mar 12</label>
@@ -98,17 +98,17 @@ title: Building HTML5 Apps
       <li>
         <label>Mar 26</label>
         <span class="topic">History API &amp; AJAX</span>
-        <span class="work"><a href="http://diveintohtml5.info/history.html" target="_blank">Ch. 11 (Dive in HTML5)</a></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/history.html" target="_blank">Ch. 11 (Dive in HTML5)</a></span>
       </li>
       <li>
         <label>Apr 3</label>
         <span class="topic">Local storage &amp; Offline Apps</span>
-        <span class="work"><a href="http://diveintohtml5.info/storage.html" target="_blank">Ch. 7</a> &amp; <a href="http://diveintohtml5.info/offline.html" target="_blank">Ch. 8</a> (Dive in HTML5)</span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/storage.html" target="_blank">Ch. 7</a> &amp; <a class="external" href="http://diveintohtml5.info/offline.html" target="_blank">Ch. 8</a> (Dive in HTML5)</span>
       </li>
       <li>
         <label>Apr 10</label>
         <span class="topic">Forms Deep Dive</span>
-        <span class="work"><a href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
       </li>
       <li>
         <label>Apr 17</label>

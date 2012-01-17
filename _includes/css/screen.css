@@ -263,7 +263,7 @@ header img {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1025px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   nav {
     position: relative;
   }
@@ -288,6 +288,14 @@ header img {
   header img {
     margin: 10px 0;
   }
+}
+
+.schedule a.external {
+  padding-right: 13px;
+  /** Data URI icon from Wikipedia **/
+/**
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC) right 7px no-repeat;
+**/
 }
 
 /* END CSS/SCREEN.CSS */

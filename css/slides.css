@@ -353,7 +353,7 @@ h3 {
 }
 
 article.fill h3 {
-  background: rgba(255, 255, 255, .75);
+  background: rgba(255, 255, 255, .85);
   padding-top: .2em;
   padding-bottom: .3em;
   margin-top: -.2em;
@@ -500,13 +500,18 @@ th {
 
 .source {
   position: absolute;
-  left: 60px;
+  left: 0;
   top: 644px;
   padding-right: 175px;
+  padding-left: 100px;
   
   font-size: 15px;
   letter-spacing: 0;  
   line-height: 18px;
+
+  width: 100%;
+
+  background:rgba(0, 0, 0, 0.75);
 }
 
 q {

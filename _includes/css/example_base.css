@@ -1,0 +1,59 @@
+/* BEGIN CSS/EXAMPLE_BASE.CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header.example-navbar {
+  background: #111;
+  height: 30px;
+  color: #EEE;
+  text-shadow: none;
+  font: bold 13px/30px sans-serif;
+  margin-bottom: 40px;
+}
+
+header.example-navbar a {
+  display: inline-block;
+  color: #EEE;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header.example-navbar a:hover {
+  background: #444;
+}
+
+section.container {
+  width: 940px; margin: 0 auto;
+}
+
+#example-title {
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 3em;
+  letter-spacing: .04em;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.05);  
+}
+
+figure {
+  background: #EEE;
+  border: 1px solid #CCC;
+  padding: 10px 0;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p > code {
+  border: 1px solid #CCC;
+  background: #F9F9F9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 1px 4px;
+  font-size: 120%;
+}
+/* END CSS/EXAMPLE_BASE.CSS */
