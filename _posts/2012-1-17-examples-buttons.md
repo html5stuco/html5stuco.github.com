@@ -77,6 +77,7 @@ CSS3 Button {: #example-title}
   .blue:hover {
     color: #FFF;
   }
+  /** Stop here for the 2 colors **/
 </style>
 
 <figure class="centered">
@@ -157,4 +158,6 @@ This blue version builds off of the styles written above.
     }
 {: .lang-css}
 
-See the [Bootstrap library on Github](https://github.com/twitter/bootstrap/blob/master/bootstrap.css#L1873) for the additional styles source.
+View the source to see additional gradients for older versions of Safari, Opera, and IE.
+
+See the [Bootstrap library on Github](https://github.com/twitter/bootstrap/blob/master/bootstrap.css#L1873) for the full library's source.

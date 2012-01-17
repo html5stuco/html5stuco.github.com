@@ -152,16 +152,35 @@ category: slides
 </article>
 
 <article>
-  <p class="center-txt" style="margin-top:40px">But she doesn't want every button to look different.</p>
-  <img src="/img/01-different-browser-buttons.png" alt="Several different browser renderings of a button control" class="centered" />
+  <img style="margin-top:100px" src="/img/01-lightsource.png" alt="Side view of a UI button from Flyosity" class="centered" />
   <p class="center-txt"><a href="http://flyosity.com/tutorial/crafting-subtle-realistic-user-interfaces.php">Flyosity - Crafting Subtle &amp; Realistic Interfaces</a></p>
   <h3 class="footer">Design Module 1: Buttons</h3>
 </article>
 
+<article>
+  <img style="margin-top:100px" src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
+  <p class="center-txt"><a href="/examples/buttons">Example page</a></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
 
 <article>
-  <img src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
-  <p class="center-txt"><a href="/examples/buttons">Example page</a></p>
+  <p class="center-txt" style="margin-top:40px"><strong>Gradients!</strong></p>
+  <pre>
+    background-image: linear-gradient(white, red);
+    background-image: linear-gradient(begin, end);
+  </pre>
+  <img src="/img/01-redwhite.png" alt="Red to white gradient" class="centered">
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p class="center-txt">Try it at <a href="http://jsfiddle.net/">jsfiddle.net</a>.</p>
+  <pre>
+    background-image: linear-gradient(white, 50% blue, red);
+    background-image: linear-gradient(begin, stop, end);
+  </pre>
+  <img src="/img/01-redwhite.png" alt="Red to white gradient" class="centered">
+  <h3 class="footer">Design Module 1: Buttons</h3>
 </article>
 
 <article>
