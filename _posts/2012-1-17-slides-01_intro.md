@@ -77,6 +77,14 @@ category: slides
 </article>
 
 <article>
+  <h3>Resources</h3>
+  <ol>
+    <li>Course slides and examples at <a href="http://html5stuco.com">http://html5stuco.com</a>.</li>
+    <li>Testing &ndash; <a href="http://jsfiddle.net">http://jsfiddle.net</a>.</li>
+  </ol>
+</article>
+
+<article>
   <p class="em-txt">What is this class about?</p>
 </article>
 
