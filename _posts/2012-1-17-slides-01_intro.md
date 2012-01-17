@@ -75,7 +75,7 @@ category: slides
 </article>
 
 <article>
-  <h3>What is this class about?</h3>
+  <p class="em-txt">What is this class about?</p>
 </article>
 
 <article class="fill">
