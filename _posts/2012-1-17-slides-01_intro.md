@@ -2,6 +2,8 @@
 layout: slides
 group: slides
 title: Introduction to HTML5
+desdive: Buttons
+devdive: Forms
 
 permalink: /slides/01-intro
 category: slides
@@ -76,19 +78,22 @@ category: slides
   <h3>What is this class about?</h3>
 </article>
 
-<article>
+<article class="fill">
   <h3>Better design</h3>
   <p class="source white">CSS3 effects</p>
+  <img src="/img/01-html5-nike.jpg" alt="Screenshot of nikebetterworld.com" />
 </article>
 
-<article>
+<article class="fill">
   <h3>Better webapps</h3>
   <p class="source white">Location APIs, offline apps</p>
+  <img src="/img/01-geolocation.jpg" alt="Screenshot of Google Maps" />
 </article>
 
-<article>
+<article class="fill">
   <h3>Better media</h3>
-  <p class="source white">Video and mnusic without flash</p>
+  <p class="source white">OkGo's All is Not Lost Chrome experiment <a href="http://allisnotlo.st">(allisnotlo.st)</a></p>
+  <img src="/img/01-html5experiment.jpg" alt="OkGo's All is Not Lost Chrome experiment" />
 </article>
 
 <article>
