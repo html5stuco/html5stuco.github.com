@@ -15,11 +15,12 @@ category: slides
 </article>
 
 <article>
-  <h2>Molly</h2>
+  <h3 class="center-txt" style="margin-top: 40px; padding-right: 0;">Molly</h3>
 </article>
 
 <article>
-  <h2>Brian</h2>
+  <h3 class="center-txt" style="margin-top: 40px; padding-right: 0;">Brian</h3>
+  <img src="/img/ppl-brian.jpg" alt="Brian Yee" class="centered"/>
 </article>
 
 <article>
@@ -70,12 +71,24 @@ category: slides
   <ol class="build">
     <li>Come to class.</li>
     <li>Complete the survey at <a href="http://www.tinyurl.com/html5stuco-survey">tinyurl.com/bh5a-survey</a>.</li>
-    <li>Send an email to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a> with your Andrew ID.</li>
+    <li>Send an email to <a href="mailto:brian.a.yee+bh5a@gmail.com">brian.a.yee+bh5a@gmail.com</a> with your Andrew ID. Also put 'waitlist' in the subject somewhere.</li>
   </ol>
 </article>
 
 <article>
   <p class="em-txt">What is this class about?</p>
+</article>
+
+<article class="fill">
+  <h3>Old and busted</h3>
+  <p class="source white"><a href="http://www2.warnerbros.com/spacejam/movie/jam.htm">http://www2.warnerbros.com/spacejam/movie/jam.htm</a></p>
+  <img src="/img/01-spacejam.jpg" alt="Screenshot of the 1996 Space Jam website" />
+</article>
+
+<article class="fill">
+  <h3>New hotness</h3>
+  <p class="source white"><a href="http://rgiskardreventlov.deviantart.com/art/Html5-263522151">http://rgiskardreventlov.deviantart.com/art/Html5-263522151</a></p>
+  <img src="/img/01-html5superman.jpg" alt="Superman, with an HTML5 logo lol" />
 </article>
 
 <article class="fill">
@@ -143,5 +156,5 @@ category: slides
 
 <article>
   <p class="em-txt">Thanks!</p>
-  <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a>.</p>
+  <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee+bh5a@gmail.com">brian.a.yee+bh5a@gmail.com</a>. Put 'waitlist' in the subject somewhere!</p>
 </article>
