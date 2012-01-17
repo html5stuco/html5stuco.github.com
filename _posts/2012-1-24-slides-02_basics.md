@@ -2,7 +2,7 @@
 hide: true
 layout: slides
 group: slides
-title: HTML and CSS markup
+title: Semantic HTML5
 
 permalink: /slides/02-markup
 category: slides

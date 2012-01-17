@@ -22,7 +22,7 @@ html>body {
 
 .container {
   width: 980px;
-  padding: 0 10px;
+  padding: 100px 10px;
   margin: 0 auto;
 }
 
@@ -36,6 +36,24 @@ h1 {
 h2 {
   font-weight: 600;
   margin: 20px 0 5px 0;
+}
+
+a {
+  color: #e54d26;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.4em;
+  max-width: 640px;
+}
+
+.footnote {
+  font-size: .88em;
+}
+
+strong {
+  font-weight: 600;
 }
 
 /* Header */
@@ -74,24 +92,77 @@ header .container h1 {
   letter-spacing: 0;
   font-size: 8.1em;
   color: #aaa;
-  float: left;
 }
 
-header .container h1:last-child {
-  float: right;
+header img {
+  margin: 0 20px;
+  vertical-align: bottom;
 }
 
-/* Syllabus */
+/* Syllabus Section */
 #syllabus {
   background: #e54d26;
   color: #fefefe;
 }
 
-#syllabus .container {
-  padding: 100px 0;
+.grading, .info {
+  font-size: .93em;
 }
 
-.schedule {
+.grading li,
+.info li {
+  margin: 5px 0;
+}
+
+.grading li {
+  font-weight: 600;
+}
+
+.grading label,
+.info label {
+  width: 120px;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.info a {
+  color: #f7f7f7;
+  text-decoration: underline;
+}
+
+/* Slides Section */
+#slides {
+  background: #65d2f1;
+  color: #fefefe;
+}
+
+/* Examples Section */
+#examples {
+  background: #555;
+  color: #fefefe;
+}
+
+/* Projects Section */
+#projects {
+  background: #f16528;
+  color: #fefefe;
+}
+
+#projects .card-list label {
+  width: 80px;
+}
+
+/* Resources Section */
+#resources {
+  background: #eee;
+}
+
+#resources .card-list {
+  color: #aaa;
+}
+
+/* "Card style" lists */
+.card-list {
   margin-top: 20px;
   padding: 10px;
   background: #fff;
@@ -101,24 +172,25 @@ header .container h1:last-child {
   -webkit-box-shadow: 0 2px 0 rgba(100,100,100,.2);
 }
 
-.schedule li {
+.card-list li {
   padding: 10px;
   border-bottom: 1px dotted #ddd;
+  line-height: 1.4em;
 }
 
-.schedule li:hover {
+.card-list li:hover {
   background: #f7f7f7;
 }
 
-.schedule li.spring-break {
+.card-list li.unreleased {
   color: #aaa;
 }
 
-.schedule li:last-child {
+.card-list li:last-child {
   border: none;
 }
 
-.schedule li label {
+.card-list li label {
   width: 50px;
   margin-right: 30px;
   text-align: right;
@@ -126,17 +198,96 @@ header .container h1:last-child {
   font-size: .88em;
 }
 
-.schedule .topic {
+.card-list .topic {
   width: 400px;
   display: inline-block;
 }
 
-.schedule .work {
+.card-list .work {
   font-size: .88em;
 }
 
-.schedule a {
-  color: #e54d26;
+/* Media queries
+---------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 30px 10px 60px 10px;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  header .container {
+    padding: 30px 0 40px 0;
+  }
+
+  header .container h1 {
+    display: block;
+    font-size: 4.1em;
+  }
+
+  header img {
+    margin: 10px 0;
+  }
+
+  .card-list li label {
+    width: 50px;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .card-list .topic {
+    width: auto;
+  }
+
+  .card-list .work {
+    margin: 10px 0 0 54px;
+    display: block;
+  }
+
+  .card-list {
+    padding: 5px;
+    border: 5px solid rgba(100,100,100,.2);
+  }
+
+  .card-list li {
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  nav {
+    position: relative;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .card-list .topic {
+    width: 25%;
+  } 
+
+  header .container {
+    padding: 60px 0 80px 0;
+  }
+
+  header .container h1 {
+    display: block;
+    font-size: 5.8em;
+  }
+
+  header img {
+    margin: 10px 0;
+  }
 }
 
 .schedule a.external {
@@ -145,10 +296,6 @@ header .container h1:last-child {
 /**
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC) right 7px no-repeat;
 **/
-}
-
-.schedule strong {
-  font-weight: 600;
 }
 
 /* END CSS/SCREEN.CSS */
