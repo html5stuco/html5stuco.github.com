@@ -127,11 +127,6 @@ category: slides
   </ul>
 </article>
 
-<article>
-  <h3>Development Module 1: HTML5 Forms</h3>
-  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
-</article>
-
 <article class="fill">
   <h3>Design Module 1: Buttons</h3>
   <img src="/img/01-button-title.jpg" alt="" />
@@ -166,8 +161,8 @@ category: slides
 <article>
   <p class="center-txt" style="margin-top:40px"><strong>Gradients!</strong></p>
   <pre>
-    background-image: linear-gradient(white, red);
-    background-image: linear-gradient(begin, end);
+background-image: linear-gradient(top, red, white);
+background-image: linear-gradient(direction, begin, end);
   </pre>
   <img src="/img/01-redwhite.png" alt="Red to white gradient" class="centered">
   <h3 class="footer">Design Module 1: Buttons</h3>
@@ -176,11 +171,36 @@ category: slides
 <article>
   <p class="center-txt">Try it at <a href="http://jsfiddle.net/">jsfiddle.net</a>.</p>
   <pre>
-    background-image: linear-gradient(white, 50% blue, red);
-    background-image: linear-gradient(begin, stop, end);
+background-image: linear-gradient(top, red 0%, blue 50%, white 100%);
+background-image: linear-gradient(direction, color position, color position, color position);
   </pre>
-  <img src="/img/01-redwhite.png" alt="Red to white gradient" class="centered">
+  <img src="/img/01-redwhiteblue.png" alt="Red to blue white gradient" class="centered">
   <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <img style="margin-top:100px"  src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
+  <p class="center-txt"><strong>But what about other browsers?</strong></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p style="margin-top:40px" class="center-txt">Include vendor prefixes for your browsers.</p>
+  <pre>
+background-color: blue;
+background-image: -o-linear-gradient(...);
+background-image: -ms-linear-gradient(...);
+background-image: -moz-linear-gradient(...);
+background-image: -webkit-linear-gradient(...);
+background-image: linear-gradient(...);
+</pre>
+<p class="center-txt">Include a regular background color as a fallback.</p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <h3>Development Module 1: HTML5 Forms</h3>
+  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
 </article>
 
 <article>
