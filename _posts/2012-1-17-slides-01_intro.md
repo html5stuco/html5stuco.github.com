@@ -148,6 +148,17 @@ category: slides
 </article>
 
 <article>
+  <section class="build">
+    <p class="center-txt" style="margin-top:100px"><strong>Which would you click?</strong></p>
+    <img src="/img/01-unstyled.png" alt="Styled vs unstyled button" class="centered" />
+    
+    <p class="center-txt" style="margin-top:100px">Usability tip</p>
+    <img src="/img/01-usability.png" alt="Styled vs unstyled button as usability" class="centered" />
+  </section>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
   <p class="center-txt" style="margin-top:40px">But she doesn't want every button to look different.</p>
   <img src="/img/01-different-browser-buttons.png" alt="Several different browser renderings of a button control" class="centered" />
   <p class="center-txt">Also, gray is boring.</p>
