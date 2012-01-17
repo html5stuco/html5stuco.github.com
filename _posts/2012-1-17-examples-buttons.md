@@ -7,7 +7,7 @@ permalink: /examples/buttons
 category: examples
 ---
 
-Simple CSS3 Button {: #example-title}
+CSS3 Button {: #example-title}
 ===========
 
 <style type="text/css">
