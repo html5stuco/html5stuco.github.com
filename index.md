@@ -23,92 +23,105 @@ title: Building HTML5 Apps
 <section id="syllabus">
   <section class="container">  
     <h1>Syllabus</h1>
-    <h2>Course Info</h2>   
-    <h2>Grading</h2>
-    <ul>
-      <li>Project 1 - 10%</li>
-      <li>Project 2 - 10%</li>
-      <li>Project 3 - 50%</li>
-      <li>Attendance - 30%</li>
+    <h2>Course Info</h2> 
+    <ul class="info">
+      <li>98-177 Spring 2012</li>
+      <li>Tues. 6:30pm - 7:20pm</li>
+      <li>Wean Hall 7500</li>
     </ul>
-    <ul class="schedule">
+    <h2>Instructors</h2>
+    <ul class="info">
+      <li><a href="mailto:msamuels@cmu.edu">Molly Samuels</a> &amp; <a href="mailto:byee@cmu.edu">Brian Yee</a></li>
+      <li>Office hours by appointment</li>
+    </ul>
+    <h2>Grading</h2>
+    <ul class="grading">
+      <li><label>Project 1</label> 15%</li>
+      <li><label>Project 2</label> 15%</li>
+      <li><label>Project 3</label> 40%</li>
+      <li><label>Attendance*</label> 30%</li>
+    </ul>
+    <p class="footnote">*Missing more than 3 class sessions will result in a big ol&#146; fail whale.</p>
+    <h2>Readings</h2>
+    <p>On the schedule below, you&#146;ll find a reading that goes along with each class meeting. Readings are not required, but definitely encouraged!</p>
+    <ul class="card-list">
       <li>
-        <label>1/17</label>
+        <label>Jan 17</label>
         <span class="topic">Introduction</span>
         <span class="work"></span>
       </li>
       <li>
-        <label>1/24</label>
+        <label>Jan 24</label>
         <span class="topic">Semantic HTML</span>
         <span class="work"><a href="http://diveintohtml5.info/semantics.html" target="_blank">Ch. 3 (Dive into HTML5)</a></span>
       </li>
       <li>
-        <label>1/31</label>
+        <label>Jan 31</label>
         <span class="topic">CSS3</span>
         <span class="work">Ch. 1 (CSS3 for Web Designers)</span>
       </li>
       <li>
-        <label>2/7</label>
+        <label>Feb 7</label>
         <span class="topic">CSS3</span>
         <span class="work">Ch. 2 (CSS3 for Web Designers)</span>
       </li>
       <li>
-        <label>2/14</label>
+        <label>Feb 14</label>
         <span class="topic">Project 1 Presentations</span>
         <span class="work"><strong>Project 1 Due</strong></span>
       </li>
       <li>
-        <label>2/21</label>
+        <label>Feb 21</label>
         <span class="topic">Responsive Web Design</span>
         <span class="work"><a href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">&#147;Responsive Web Design&#148; by Ethan Marcotte</a></span>
       </li>
       <li>
-        <label>2/28</label>
+        <label>Feb 28</label>
         <span class="topic">Geolocation API</span>
         <span class="work"><a href="http://diveintohtml5.info/geolocation.html" target="_blank">Ch. 6 (Dive in HTML5)</a></span>
       </li>
       <li>
-        <label>3/6</label>
+        <label>Mar 6</label>
         <span class="topic">Audio &amp; Video APIs</span>
         <span class="work"><a href="http://diveintohtml5.info/video.html" target="_blank">Ch. 5 (Dive in HTML5)</a></span>
       </li>
-      <li class="spring-break">
-        <label>3/12</label>
+      <li class="unreleased">
+        <label>Mar 12</label>
         <span class="topic">NO CLASS</span>
         <span class="work">(Spring Break)</span>
       </li>
       <li>
-        <label>3/19</label>
+        <label>Mar 19</label>
         <span class="topic">Project 2 Presentations</span>
         <span class="work"><strong>Project 2 Due</strong></span>
       </li>
       <li>
-        <label>3/26</label>
+        <label>Mar 26</label>
         <span class="topic">History API &amp; AJAX</span>
         <span class="work"><a href="http://diveintohtml5.info/history.html" target="_blank">Ch. 11 (Dive in HTML5)</a></span>
       </li>
       <li>
-        <label>4/3</label>
+        <label>Apr 3</label>
         <span class="topic">Local storage &amp; Offline Apps</span>
         <span class="work"><a href="http://diveintohtml5.info/storage.html" target="_blank">Ch. 7</a> &amp; <a href="http://diveintohtml5.info/offline.html" target="_blank">Ch. 8</a> (Dive in HTML5)</span>
       </li>
       <li>
-        <label>4/10</label>
+        <label>Apr 10</label>
         <span class="topic">Forms Deep Dive</span>
         <span class="work"><a href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
       </li>
       <li>
-        <label>4/17</label>
+        <label>Apr 17</label>
         <span class="topic">Overflow</span>
         <span class="work"></span>
       </li>
       <li>
-        <label>4/24</label>
+        <label>Apr 24</label>
         <span class="topic">Overflow</span>
         <span class="work"></span>
       </li>
       <li>
-        <label>5/1</label>
+        <label>May 1</label>
         <span class="topic">Final Presentations</span>
         <span class="work"><strong>Project 3 Due</strong></span>
       </li>
@@ -118,13 +131,19 @@ title: Building HTML5 Apps
 
 <section id="slides">
   <section class="container">
-    <h2>Slides</h2>
-    <ul>
+    <h1>Slides</h1>
+    <ul class="card-list">
     {% for post in site.categories.slides reversed %}
       {% if post.hide %}
-      <li class="unreleased"><span>{{ post.date | date: "%b %d" }}</span> &raquo; <span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
+      <li class="unreleased">
+        <label>{{ post.date | date: "%b %d" }}</label>
+        <span class="topic">{{ post.title }}</span>
+      </li>
       {% else %}
-      <li><span>{{ post.date | date: "%b %d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <label>{{ post.date | date: "%b %d" }}</label>
+        <a href="{{ post.url }}" class="topic">{{ post.title }}</a>
+      </li>
       {% endif %}
     {% endfor %}
     </ul>
@@ -133,7 +152,8 @@ title: Building HTML5 Apps
 
 <section id="examples">
   <section class="container">
-    <h2>Examples</h2>
+    <h1>Examples</h1>
+    <p>Any demos from class will be posted here.</p>
     <ol>
     {% for post in site.categories.examples %}
       {% if post.hide %}
@@ -148,11 +168,51 @@ title: Building HTML5 Apps
 
 <section id="projects">
   <section class="container">
-    <h2>Projects</h2>
-    <ol>
-    {% for project in site.categories.projects %}
-      <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-    {% endfor %}
-    </ol>
+    <h1>Projects</h1>
+    <p>Stayed tuned for more details and project requirements.</p>
+    <ul class="card-list">
+      <li>
+        <label>due Feb 14</label>
+        <span class="topic">Project 1: Gallery Site</span>
+      </li>
+      <li>
+        <label>due Mar 19</label>
+        <span class="topic">Project 2: Media Player</span>
+      </li>
+      <li>
+        <label>due May 1</label>
+        <span class="topic">Project 3: Student Choice</span>
+      </li>
+    </ul>
+  </section>
+</section>
+
+<section id="resources">
+  <section class="container">
+    <h1>Resources</h1>
+    <p>Found a link you want to share with the class? <a href="mailto:msamuels@cmu.edu">Let us know!</a></p>
+    <ul class="card-list">
+      <li>
+        <a href="http://diveintohtml5.info" target="_blank">Dive into HTML5</a> &ndash; This will serve as our course &#147;textbook&#148;
+      </li>
+      <li>
+        <a href="http://html5forwebdesigners.com" target="_blank">HTML5 For Web Designers</a> &ndash; A brief book by Jeremy Keith
+      </li>
+      <li>
+        <a href="http://www.html5rocks.com/en/" target="_blank">HTML5 Rocks</a> &ndash; A resource for HTML5 developers (from Google)
+      </li>
+      <li>
+        <a href="http://css3.info" target="_blank">CSS3.info</a> &ndash; Everything you need to know about CSS3
+      </li>
+      <li>
+        <a href="http://caniuse.com/" target="_blank">When Can I Use...</a> &ndash; Compatibility tables for support of HTML5, CSS3, SVG, and more in desktop and mobile browsers
+      </li>
+      <li>
+        <a href="http://html5readiness.com" target="_blank">HTML5 &amp; CSS3 Readiness</a> &ndash; Sleak graph version of Can I Use... info
+      </li>
+      <li>
+        <a href="https://developer.mozilla.org/en-US/demos/tag/tech:html5/" target="_blank">Mozilla Demo Studio</a> &ndash; Cool HTML5/CSS3 implementations
+      </li>
+    </ul>
   </section>
 </section>
