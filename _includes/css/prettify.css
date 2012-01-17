@@ -1,3 +1,4 @@
+/* BEGIN CSS/PRETTIFY.CSS */
 /* desert scheme ported from vim to google prettify */
 /** Some BH5A additions like the rel stuff from css-tricks.com **/
 pre { display: block; background-color: #333; position: relative; overflow: auto; }
@@ -34,12 +35,18 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
   pre .atv, code .atv { color: #060 }
 }
 
-pre[rel] {
-  padding-top: 40px;
+/** 
+ * Stole this idea from CSS-tricks, but had to modify
+ * it slightly because Maruku isn't working properly
+ * with rel= links.
+ **/
+
+pre {
+  /* 40px top, 10px left/right, 15px bottom */
+  padding: 40px 10px 15px;
 }
 
-pre[rel]::after {
-  content: attr(rel);
+pre::after {
   position: absolute;
   top: 0;
   background: #DDD;
@@ -51,3 +58,17 @@ pre[rel]::after {
   color: #222;
   font: bold 16px sans-serif;
 }
+
+pre.lang-css::after {
+  content: "CSS";
+}
+pre.lang-html::after {
+  content: "HTML";
+}
+pre.lang-js::after {
+  content: "JavaScript";
+}
+pre.lang-jq::after {
+  content: "jQuery";
+}
+/* END CSS/PRETTIFY.CSS */
