@@ -35,7 +35,7 @@ title: Building HTML5 Apps
       <li>Office hours by appointment</li>
     </ul>
     <h2>Grading</h2>
-    <p>This course (like all StuCo's) is pass/fail (woohoo!)</p>
+    <p>This course is pass/fail (woohoo!)</p>
     <ul class="grading">
       <li><label>Project 1</label> 15%</li>
       <li><label>Project 2</label> 15%</li>
