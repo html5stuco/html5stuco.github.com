@@ -58,21 +58,26 @@ CSS3 Button {: #example-title}
   }
 
   .blue {
-    color: #FFF;
+    color: #ffffff;
     background-color: #0064cd;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
     background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+    background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
     background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+    background-image: -o-linear-gradient(top, #049cdb, #0064cd);
     background-image: linear-gradient(top, #049cdb, #0064cd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0);
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     border-color: #0064cd #0064cd #003f81;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   }
 
   .blue:hover {
     color: #FFF;
   }
+  /** Stop here for the 2 colors **/
 </style>
 
 <figure class="centered">
@@ -82,13 +87,13 @@ CSS3 Button {: #example-title}
 
 First, the HTML. The text on the button is set with `value="Pick Me"`.
 
-    <input type="submit" value="Pick me!" />
-    <input type="submit" value="No, pick me!" />
+    <input class="button" type="submit" value="Pick me!" />
+    <input class="button blue" type="submit" value="No, pick me!" />
 {: .lang-html }
 
 Next, the CSS, starting with the default gray button.
 
-    input[type=submit] {
+    .btn {
       /* This lets the user know you can click something. */
       cursor: pointer;
 
@@ -119,13 +124,13 @@ Next, the CSS, starting with the default gray button.
       transition: 0.1s linear all;
     }
 
-    input[type=submit]:hover {
+    .btn:hover {
       /* Slide the background gradient up, revealing the lighter background color below. */
       background-position: 0 -15px;
       color: #333;  
     }
 
-    input[type=submit]:active {
+    .btn:active {
       /* Darken the top of the button to make it look as though the button is being pressed. */
       -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
       -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -135,7 +140,7 @@ Next, the CSS, starting with the default gray button.
 
 This blue version builds off of the styles written above.
 
-    input[type=submit].blue {
+    .btn.blue {
       color: #FFF;
       background-color: #0064cd;
       background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
@@ -148,9 +153,11 @@ This blue version builds off of the styles written above.
       text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     }
 
-    .blue:hover {
+    .btn.blue:hover {
       color: #FFF;
     }
 {: .lang-css}
 
-See the [Bootstrap library on Github](https://github.com/twitter/bootstrap/blob/master/bootstrap.css#L1873) for the additional styles source.
+View the source to see additional gradients for older versions of Safari, Opera, and IE.
+
+See the [Bootstrap library on Github](https://github.com/twitter/bootstrap/blob/master/bootstrap.css#L1873) for the full library's source.

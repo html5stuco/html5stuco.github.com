@@ -15,11 +15,13 @@ category: slides
 </article>
 
 <article>
-  <h2>Molly</h2>
+  <h3 class="center-txt" style="margin-top: 40px; padding-right: 0;">Molly</h3>
+  <img src="/img/ppl-molly.jpg" alt="Molly Samuels" class="centered"/>
 </article>
 
 <article>
-  <h2>Brian</h2>
+  <h3 class="center-txt" style="margin-top: 40px; padding-right: 0;">Brian</h3>
+  <img src="/img/ppl-brian.jpg" alt="Brian Yee" class="centered"/>
 </article>
 
 <article>
@@ -70,12 +72,32 @@ category: slides
   <ol class="build">
     <li>Come to class.</li>
     <li>Complete the survey at <a href="http://www.tinyurl.com/html5stuco-survey">tinyurl.com/bh5a-survey</a>.</li>
-    <li>Send an email to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a> with your Andrew ID.</li>
+    <li>Send an email to <a href="mailto:brian.a.yee+bh5a@gmail.com">brian.a.yee+bh5a@gmail.com</a> with your Andrew ID. Also put 'waitlist' in the subject somewhere.</li>
+  </ol>
+</article>
+
+<article>
+  <h3>Resources</h3>
+  <ol>
+    <li>Course slides and examples at <a href="http://html5stuco.com">http://html5stuco.com</a>.</li>
+    <li>Testing &ndash; <a href="http://jsfiddle.net">http://jsfiddle.net</a>.</li>
   </ol>
 </article>
 
 <article>
   <p class="em-txt">What is this class about?</p>
+</article>
+
+<article class="fill">
+  <h3>Old and busted</h3>
+  <p class="source white"><a href="http://www2.warnerbros.com/spacejam/movie/jam.htm">http://www2.warnerbros.com/spacejam/movie/jam.htm</a></p>
+  <img src="/img/01-spacejam.jpg" alt="Screenshot of the 1996 Space Jam website" />
+</article>
+
+<article class="fill">
+  <h3>New hotness</h3>
+  <p class="source white"><a href="http://rgiskardreventlov.deviantart.com/art/Html5-263522151">http://rgiskardreventlov.deviantart.com/art/Html5-263522151</a></p>
+  <img src="/img/01-html5superman.jpg" alt="Superman, with an HTML5 logo lol" />
 </article>
 
 <article class="fill">
@@ -113,11 +135,6 @@ category: slides
   </ul>
 </article>
 
-<article>
-  <h3>Development Module 1: HTML5 Forms</h3>
-  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
-</article>
-
 <article class="fill">
   <h3>Design Module 1: Buttons</h3>
   <img src="/img/01-button-title.jpg" alt="" />
@@ -131,6 +148,17 @@ category: slides
 </article>
 
 <article>
+  <section class="build">
+    <p class="center-txt" style="margin-top:100px"><strong>Which would you click?</strong></p>
+    <img src="/img/01-unstyled.png" alt="Styled vs unstyled button" class="centered" />
+    
+    <p class="center-txt" style="margin-top:100px">Usability tip</p>
+    <img src="/img/01-usability.png" alt="Styled vs unstyled button as usability" class="centered" />
+  </section>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
   <p class="center-txt" style="margin-top:40px">But she doesn't want every button to look different.</p>
   <img src="/img/01-different-browser-buttons.png" alt="Several different browser renderings of a button control" class="centered" />
   <p class="center-txt">Also, gray is boring.</p>
@@ -138,10 +166,63 @@ category: slides
 </article>
 
 <article>
-  <img src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
+  <img style="margin-top:100px" src="/img/01-lightsource.png" alt="Side view of a UI button from Flyosity" class="centered" />
+  <p class="center-txt"><a href="http://flyosity.com/tutorial/crafting-subtle-realistic-user-interfaces.php">Flyosity - Crafting Subtle &amp; Realistic Interfaces</a></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <img style="margin-top:100px" src="/img/01-buttons.png" alt="CSS3 buttons" class="centered">
+  <p class="center-txt"><a href="/examples/buttons">Example page</a></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p class="center-txt" style="margin-top:40px"><strong>Gradients!</strong></p>
+  <pre>
+background-image: linear-gradient(top, red, white);
+background-image: linear-gradient(direction, begin, end);
+  </pre>
+  <img src="/img/01-redwhite.png" alt="Red to white gradient" class="centered">
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p class="center-txt">Try it at <a href="http://jsfiddle.net/">jsfiddle.net</a>.</p>
+  <pre>
+background-image: linear-gradient(top, red 0%, blue 50%, white 100%);
+background-image: linear-gradient(direction, color position, color position, color position);
+  </pre>
+  <img src="/img/01-redwhiteblue.png" alt="Red to blue white gradient" class="centered">
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <img style="margin-top:100px"  src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
+  <p class="center-txt"><strong>But what about other browsers?</strong></p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <p style="margin-top:40px" class="center-txt">Include vendor prefixes for your browsers.</p>
+  <pre>
+background-color: blue;
+background-image: -o-linear-gradient(...);
+background-image: -ms-linear-gradient(...);
+background-image: -moz-linear-gradient(...);
+background-image: -webkit-linear-gradient(...);
+background-image: linear-gradient(...);
+</pre>
+<p class="center-txt">Include a regular background color as a fallback.</p>
+  <h3 class="footer">Design Module 1: Buttons</h3>
+</article>
+
+<article>
+  <h3>Development Module 1: HTML5 Forms</h3>
+  <img src="/img/dev-greg.jpg" alt="Greg, DevDiver" class="centered"/>
 </article>
 
 <article>
   <p class="em-txt">Thanks!</p>
-  <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee@gmail.com">brian.a.yee@gmail.com</a>.</p>
+  <p class="center-txt">Waitlist people - remember to send your Andrew ID to <a href="mailto:brian.a.yee+bh5a@gmail.com">brian.a.yee+bh5a@gmail.com</a>. Put 'waitlist' in the subject somewhere!</p>
 </article>

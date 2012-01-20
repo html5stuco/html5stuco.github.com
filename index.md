@@ -31,7 +31,7 @@ title: Building HTML5 Apps
     </ul>
     <h2>Instructors</h2>
     <ul class="info">
-      <li><a href="mailto:msamuels@cmu.edu">Molly Samuels</a> &amp; <a href="mailto:byee@cmu.edu">Brian Yee</a></li>
+      <li><a href="mailto:msamuels@cmu.edu">Molly Samuels</a> &amp; <a href="mailto:brian.a.yee+bh5a@gmail.com">Brian Yee</a></li>
       <li>Office hours by appointment</li>
     </ul>
     <h2>Grading</h2>
