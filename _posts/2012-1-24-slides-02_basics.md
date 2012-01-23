@@ -8,7 +8,14 @@ permalink: /slides/02-markup
 category: slides
 ---
 
-Week 2 - Markup
-===
+<article class="dark">
+  <h1>Building HTML5 Apps</h1>
+  <p>Week 2 &ndash; Semantic HTML5</p>
+</article>
 
-Welcome to Building HTML5 Apps!
+<article>
+  <section class="build">
+    <img style="margin-top: 100px; padding: 30px; background: white;" src="/img/02-google.png" alt="Google Logo" class="centered">
+    <p class="center-txt">Most popular tags: <code>header</code>, <code>footer</code></p>
+  </section>
+</article>
