@@ -214,6 +214,9 @@ title: Building HTML5 Apps
       <li>
         <a href="https://developer.mozilla.org/en-US/demos/tag/tech:html5/" target="_blank">Mozilla Demo Studio</a> &ndash; Cool HTML5/CSS3 implementations
       </li>
+      <li>
+        <a href="http://html5please.us/" target="_blank">HTML5 Please</a> &ndash; Look up HTML5, CSS3, etc features, know if they are ready for use, and if so find out how you should use them (<em>Thanks, Donald Huh!</em>)
+      </li>
     </ul>
   </section>
 </section>
