@@ -8,7 +8,6 @@ permalink: /slides/02-markup
 category: slides
 ---
 
-<<<<<<< HEAD
 <article class="dark">
   <h1>Building HTML5 Apps</h1>
   <p>Week 2 &ndash; Semantic HTML5</p>
