@@ -13,15 +13,15 @@ title: Building HTML5 Apps
       <li><a href="#resources">Resources</a></li>
     </ul>
   </nav>
-  <section class="container">
-    <h1>Building</h1>
-    <img class="html5-logo" src="/img/html5_logo.jpg" />
-    <h1>Web Apps</h1>
-  </section>
+  <h1>
+    Building
+    <img class="html5-logo" src="/img/html5_logo.jpg" alt="HTML5" />
+    Web Apps
+  </h1>
 </header>
 
 <section id="syllabus">
-  <section class="container">  
+  <div class="container">  
     <h1>Syllabus</h1>
     <h2>Course Info</h2> 
     <ul class="info">
@@ -35,6 +35,7 @@ title: Building HTML5 Apps
       <li>Office hours by appointment</li>
     </ul>
     <h2>Grading</h2>
+    <p>This course is pass/fail (woohoo!)</p>
     <ul class="grading">
       <li><label>Project 1</label> 15%</li>
       <li><label>Project 2</label> 15%</li>
@@ -44,6 +45,7 @@ title: Building HTML5 Apps
     <p class="footnote">*Missing more than 3 class sessions will result in a big ol&#146; fail whale.</p>
     <h2>Readings</h2>
     <p>On the schedule below, you&#146;ll find a reading that goes along with each class meeting. Readings are not required, but definitely encouraged!</p>
+    <h2>Schedule</h2>
     <ul class="card-list">
       <li>
         <label>Jan 17</label>
@@ -126,11 +128,11 @@ title: Building HTML5 Apps
         <span class="work"><strong>Project 3 Due</strong></span>
       </li>
     </ul>
-  </section>
+  </div>
 </section>
 
 <section id="slides">
-  <section class="container">
+  <div class="container">
     <h1>Slides</h1>
     <ul class="card-list">
     {% for post in site.categories.slides reversed %}
@@ -147,11 +149,11 @@ title: Building HTML5 Apps
       {% endif %}
     {% endfor %}
     </ul>
-  </section>
+  </div>
 </section>
 
 <section id="examples">
-  <section class="container">
+  <div class="container">
     <h1>Examples</h1>
     <p>Any demos from class will be posted here.</p>
     <ol>
@@ -163,11 +165,11 @@ title: Building HTML5 Apps
       {% endif %}
     {% endfor %}
     </ol>
-  </section>
+  </div>
 </section>
 
 <section id="projects">
-  <section class="container">
+  <div class="container">
     <h1>Projects</h1>
     <p>Stayed tuned for more details and project requirements.</p>
     <ul class="card-list">
@@ -184,11 +186,11 @@ title: Building HTML5 Apps
         <span class="topic">Project 3: Student Choice</span>
       </li>
     </ul>
-  </section>
+  </div>
 </section>
 
 <section id="resources">
-  <section class="container">
+  <div class="container">
     <h1>Resources</h1>
     <p>Found a link you want to share with the class? <a href="mailto:msamuels@cmu.edu">Let us know!</a></p>
     <ul class="card-list">
@@ -213,6 +215,9 @@ title: Building HTML5 Apps
       <li>
         <a href="https://developer.mozilla.org/en-US/demos/tag/tech:html5/" target="_blank">Mozilla Demo Studio</a> &ndash; Cool HTML5/CSS3 implementations
       </li>
+      <li>
+        <a href="http://html5please.us/" target="_blank">HTML5 Please</a> &ndash; Look up HTML5, CSS3, etc features, know if they are ready for use, and if so find out how you should use them (<em>Thanks, Donald Huh!</em>)
+      </li>
     </ul>
-  </section>
+  </div>
 </section>
