@@ -14,8 +14,36 @@ category: slides
 </article>
 
 <article>
-  <section class="build">
-    <img style="margin-top: 100px; padding: 30px; background: white;" src="/img/02-google.png" alt="Google Logo" class="centered">
-    <p class="center-txt">Most popular tags: <code>header</code>, <code>footer</code></p>
+  <section>
+    <p class="em-txt c">HTML is...</p>
+    <aside class="center-txt build">
+      <p>For content</p>
+      <p>Adapted from XML</p>
+      <p>Only for content</p>
+    </aside>
   </section>
+</article>
+
+<article>
+  <section class="build">
+    <p class="em-txt c">What we see...</p>
+  </section>
+</article>
+
+<article class="fill">
+  <img src="/img/02-nyt-orig.png" alt="New York Times website">
+</article>
+
+<article>
+  <section class="build">
+    <p class="em-txt c">What the browser sees...</p>
+  </section>
+</article>
+
+<article class="fill">
+  <img src="/img/02-nyt-elems.png" alt="New York Times website with some elements highlighted">
+</article>
+
+<article class="fill">
+  <img src="/img/02-nyt-divitis.png" alt="New York Times source with a bunch of divs">
 </article>

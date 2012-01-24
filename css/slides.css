@@ -624,3 +624,7 @@ article.smaller q::after {
 .prettyprint .var { /* a declaration; a variable name */
   color: rgb(127, 0, 127);
 }  
+
+.c:first-child {
+  margin-top: 70px;
+}
