@@ -47,3 +47,20 @@ category: slides
 <article class="fill">
   <img src="/img/02-nyt-divitis.png" alt="New York Times source with a bunch of divs">
 </article>
+
+<article>
+  <section>
+    <p class="em-txt" style="margin-top: 40px;">Accessiblity is key!</p>
+    <img src="/img/02-raycharles-thesussman.jpg" alt="Ray Charles" class="centered">
+    <p class="center-txt">Screen readers, search engines, mobile users</p>
+  </section>
+</article>
+
+<article class='fill'>
+  <iframe src='http://www.youtube.com/embed/D3-v9tRu9oE?modestbranding=1'></iframe>
+</article>
+
+<article>
+  <img src="/img/02-google.png" alt="Ray Charles" class="centered c">
+  <p class="center-txt">Screen readers, search engines, mobile users</p>
+</article>
