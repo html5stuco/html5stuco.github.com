@@ -57,10 +57,29 @@ category: slides
 </article>
 
 <article class='fill'>
-  <iframe src='http://www.youtube.com/embed/D3-v9tRu9oE?modestbranding=1'></iframe>
+  <iframe src='http://www.youtube.com/embed/D3-v9tRu9oE?modestbranding=1'>&nbsp;</iframe>
 </article>
 
 <article>
-  <img src="/img/02-google.png" alt="Ray Charles" class="centered c">
-  <p class="center-txt">Screen readers, search engines, mobile users</p>
+  <h3>Some tags to try:</h3>
+  <ul class="build">
+    <li><code>header</code> and <code>footer</code></li>
+    <li><code>figure</code> and <code>figcaption</code></li>
+    <li><code>nav</code> (navigation)</li>
+    <li><code>time</code></li>
+    <li><code>video</code> and <code>audio</code></li>
+    <li><code>summary</code></li>
+    <li><strong><code>section</code></strong> (similar to <code>div</code>)</li>
+  </ul>
+</article>
+
+<article>
+  <p class="em-txt">An example</p>
+  <img src="/img/02-unstyled-txt.png" alt="Unstyled HTML output" class="centered">
+  <p class="center-txt"><a href="http://jsfiddle.net/byee/MFEwm/">http://jsfiddle.net/byee/MFEwm/</a></p>
+</article>
+
+<article class="dark">
+  <h1>Building HTML5 Apps</h1>
+  <p>Week 2 &ndash; Semantic HTML5</p>
 </article>
