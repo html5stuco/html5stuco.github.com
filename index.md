@@ -157,13 +157,7 @@ title: Building HTML5 Apps
     <h1>Examples</h1>
     <p>Any demos from class will be posted here.</p>
     <ol class="card-list">
-    {% for post in site.categories.examples %}
-      {% if post.hide %}
-      <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
-      {% else %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+      <li><a href="/examples/buttons">Buttons</a></li>
     </ol>
   </div>
 </section>
