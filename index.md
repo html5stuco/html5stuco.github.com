@@ -64,28 +64,30 @@ title: Building HTML5 Apps
       </li>
       <li>
         <label>Feb 7</label>
-        <span class="topic">CSS3</span>
-        <span class="work">Ch. 2 (CSS3 for Web Designers)</span>
+        <span class="topic">HTML5, Flash, and the Battle for Faster Cat Videos</span>
+        <span class="work">Google Tech Talk!</span>
       </li>
       <li>
         <label>Feb 14</label>
-        <span class="topic">Project 1 Presentations</span>
-        <span class="work"><strong>Project 1 Due</strong></span>
+        <span class="topic">More CSS3</span>
+        <span class="work"><strong>Ch. 2 (CSS3 for Web Designers)</strong></span>
       </li>
       <li>
         <label>Feb 21</label>
         <span class="topic">Responsive Web Design</span>
-        <span class="work"><a class="external" href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">&#147;Responsive Web Design&#148; by Ethan Marcotte</a></span>
+        <span class="work"><a class="external" href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">&#147;Responsive Web Design&#148; by Ethan Marcotte</a>, 
+        <strong>Project 1 due</strong>
+        </span>
       </li>
       <li>
         <label>Feb 28</label>
-        <span class="topic">Geolocation API</span>
-        <span class="work"><a class="external" href="http://diveintohtml5.info/geolocation.html" target="_blank">Ch. 6 (Dive in HTML5)</a></span>
+        <span class="topic">Audio &amp; Video APIs</span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/video.html" target="_blank">Ch. 5 (Dive in HTML5)</a></span>
       </li>
       <li>
         <label>Mar 6</label>
-        <span class="topic">Audio &amp; Video APIs</span>
-        <span class="work"><a class="external" href="http://diveintohtml5.info/video.html" target="_blank">Ch. 5 (Dive in HTML5)</a></span>
+        <span class="topic">Geolocation API</span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/geolocation.html" target="_blank">Ch. 6 (Dive in HTML5)</a></span>
       </li>
       <li class="unreleased">
         <label>Mar 12</label>
@@ -168,8 +170,8 @@ title: Building HTML5 Apps
     <p>Stayed tuned for more details and project requirements.</p>
     <ul class="card-list">
       <li>
-        <label>due Feb 14</label>
-        <a href="/projects/gallery"><span class="topic">Project 1: Gallery Site</span></a>
+        <label>due Feb 21</label>
+        <span class="topic">Project 1: Gallery Site &rarr; <a href="/files/gallery.zip">starter code available here</a></span>
       </li>
       <li>
         <label>due Mar 19</label>
