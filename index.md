@@ -70,7 +70,7 @@ title: Building HTML5 Apps
       <li>
         <label>Feb 14</label>
         <span class="topic">More CSS3</span>
-        <span class="work"><strong>Ch. 2 (CSS3 for Web Designers)</strong></span>
+        <span class="work">Ch. 2 (CSS3 for Web Designers)</span>
       </li>
       <li>
         <label>Feb 21</label>
