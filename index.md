@@ -158,7 +158,7 @@ title: Building HTML5 Apps
   <div class="container">
     <h1>Examples</h1>
     <p>Any demos from class will be posted here.</p>
-    <ol>
+    <ol class="card-list">
     {% for post in site.categories.examples %}
       {% if post.hide %}
       <li class="unreleased"><span class="unreleased-link">{{ post.title }}</span> &mdash; <span class="unreleased-txt">Coming soon!</span></li>
