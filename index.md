@@ -175,7 +175,7 @@ title: Building HTML5 Apps
     <ul class="card-list">
       <li>
         <label>due Feb 14</label>
-        <span class="topic">Project 1: Gallery Site</span>
+        <a href="/projects/gallery"><span class="topic">Project 1: Gallery Site</span></a>
       </li>
       <li>
         <label>due Mar 19</label>
