@@ -1,6 +1,6 @@
 ---
 hide: false
-layout: example
+layout: default
 style: gallery
 title: Gallery
 
