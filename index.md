@@ -214,6 +214,9 @@ title: Building HTML5 Apps
       <li>
         <a href="http://html5please.us/" target="_blank">HTML5 Please</a> &ndash; Look up HTML5, CSS3, etc features, know if they are ready for use, and if so find out how you should use them (<em>Thanks, Donald Huh!</em>)
       </li>
+      <li>
+        <a href="http://learn.shayhowe.com/html-css/terminology-syntax-intro/" target="_blank">A Beginners Guide to HTML &amp; CSS</a> &ndash; Beautiful resource for those new to web development!
+      </li>      
     </ul>
   </div>
 </section>
