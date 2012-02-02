@@ -159,7 +159,9 @@ title: Building HTML5 Apps
     <h1>Examples</h1>
     <p>Any demos from class will be posted here.</p>
     <ol class="card-list">
-      <li><a href="/examples/buttons">Buttons</a></li>
+      <li><a href="/examples/buttons">Buttons (week 1)</a></li>
+      <li><a href="/files/gallery.zip">Gallery Site HTML (week 2)</a></li>
+      <li><a href="/files/gallery-week3.zip">Gallery Site w/ CSS (week 3)</a></li>
     </ol>
   </div>
 </section>
@@ -171,7 +173,7 @@ title: Building HTML5 Apps
     <ul class="card-list">
       <li>
         <label>due Feb 21</label>
-        <span class="topic">Project 1: Gallery Site &rarr; <a href="/files/gallery.zip">starter code available here</a></span>
+        <span class="topic">Project 1: Gallery Site</span>
       </li>
       <li>
         <label>due Mar 19</label>
