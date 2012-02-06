@@ -218,7 +218,8 @@ title: Building HTML5 Apps
       </li>
       <li>
         <a href="http://learn.shayhowe.com/html-css/terminology-syntax-intro/" target="_blank">A Beginners Guide to HTML &amp; CSS</a> &ndash; Beautiful resource for those new to web development!
-      </li>      
+      </li>
+      <li><a href="http://pea.rs/">Pea.rs</a> &ndash; Common patterns (lists, buttons, tabs) and the code that makes them.</li>  
     </ul>
   </div>
 </section>
