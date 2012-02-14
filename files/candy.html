@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Candy</title>
+		<style>
+			body {
+				background: #eee;
+			}
+
+			#paper {
+				background: #fff;
+				border: 1px solid #ddd;
+				border-bottom: 1px dashed rgba(0,0,0,.2);
+				width: 192px;
+				height: 580px;
+				position: relative;
+				top: -560px;
+				margin: 0 auto;
+
+				-webkit-box-shadow: 0 1px 8px rgba(0,0,0,.1);
+				-webkit-transform: rotate(2deg);
+				-webkit-transition-duration: .1s, 1s;
+			}
+
+			#paper:hover {
+				top: -12px;
+				-webkit-transform: rotate(-1deg);
+			}
+
+			.buttons {
+				margin: 0;
+				padding: 0 10px;
+			}
+
+			.buttons li {
+				list-style-type: none;
+				width: 20px;
+				height: 20px;
+				display: inline-block;
+				margin: 10px;
+				background: #333;
+
+				-webkit-border-radius: 20px;
+				-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,.1);
+			}
+
+			.buttons#blue li {
+				background: -webkit-radial-gradient(10% 30%, #55c3ff, #004a83);
+				border: 1px solid #0c5994;
+			}
+
+			.buttons#yellow li {
+				background: -webkit-radial-gradient(10% 30%, #ede25f, #b79c14);
+				border: 1px solid #d3cc4a;
+			}
+
+			.buttons#pink li {
+				background: -webkit-radial-gradient(10% 30%, #ff95cd, #b2293d);
+				border: 1px solid #ba4852;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="paper">
+			<ul class="buttons" id="blue">
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+			</ul>
+			<ul class="buttons" id="yellow">
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+			</ul>
+			<ul class="buttons" id="pink">
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+				<li></li><li></li><li></li><li></li>
+			</ul>
+		</div>
+	</body>
+</html>
