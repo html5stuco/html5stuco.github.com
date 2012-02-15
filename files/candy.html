@@ -2,6 +2,12 @@
 <html>
 	<head>
 		<title>Candy</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$("#paper").live("click", function(){
+				$(this).toggleClass('clicked');
+			});
+		</script>
 		<style>
 			body {
 				background: #eee;
@@ -21,11 +27,20 @@
 				-webkit-box-shadow: 0 1px 8px rgba(0,0,0,.1);
 				-webkit-transform: rotate(2deg);
 				-webkit-transition-duration: .1s, 1s;
+				
+				-moz-box-shadow: 0 1px 8px rgba(0,0,0,.1);
+				-moz-transform: rotate(2deg);
+				-moz-transition-duration: .1s, 1s;
 			}
 
 			#paper:hover {
+				top: -520px;	
+			}
+
+			#paper.clicked {
 				top: -12px;
 				-webkit-transform: rotate(-1deg);
+				-moz-transform: rotate(-1deg);
 			}
 
 			.buttons {
@@ -43,83 +58,26 @@
 
 				-webkit-border-radius: 20px;
 				-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,.1);
+				-moz-border-radius: 20px;
+				-moz-box-shadow: 2px 2px 4px rgba(0,0,0,.1);
 			}
 
 			.buttons#blue li {
 				background: -webkit-radial-gradient(10% 30%, #55c3ff, #004a83);
+				background: -moz-radial-gradient(10% 30%, #55c3ff, #004a83);
 				border: 1px solid #0c5994;
 			}
 
 			.buttons#yellow li {
 				background: -webkit-radial-gradient(10% 30%, #ede25f, #b79c14);
+				background: -moz-radial-gradient(10% 30%, #ede25f, #b79c14);
 				border: 1px solid #d3cc4a;
 			}
 
 			.buttons#pink li {
 				background: -webkit-radial-gradient(10% 30%, #ff95cd, #b2293d);
+				background: -moz-radial-gradient(10% 30%, #ff95cd, #b2293d);
 				border: 1px solid #ba4852;
-			}
-
-			#lollipop {
-				width: 160px;
-				height: 160px;
-				position: relative;
-				margin: 0 auto;
-				top: -300px;
-			}
-			#lollipop:hover {
-				-webkit-animation: spin .5s infinite;
-			}
-
-			#lollipop ul {
-				margin: 0;
-				padding: 0;
-				list-style-type: none;
-			}
-			#lollipop li {
-				display: inline-block;
-				float: left;
-				width: 80px;
-				height: 80px;
-				background: #aaa;
-				margin: 0;
-				padding: 0;
-			}
-			#lollipop li:first-child {
-				-webkit-border-radius: 80px 0 0 0;
-			}
-			#lollipop li:nth-child(2) {
-				background: #ff95cd;
-				-webkit-border-radius: 0 80px 0 0;
-			}
-			#lollipop li:nth-child(3) {
-				background: #ede25f;
-				-webkit-border-radius: 0 0 0 80px;
-			}
-			#lollipop li:last-child {
-				background: #55c3ff;
-				-webkit-border-radius: 0 0 80px 0;
-			}
-			@-webkit-keyframes spin {
-				0%   { 
-					-webkit-transform: rotate(0deg); 
-				}
-				25%	 { 
-					-webkit-transform: rotate(90deg) scale(1.5); 
-					opacity: .75;
-				}
-				50%	 { 
-					-webkit-transform: rotate(180deg) scale(2);
-					opacity: .5; 
-				}
-				75%	 { 
-					-webkit-transform: rotate(270deg) scale(1.5); 
-					opacity: .75;
-				}
-				100% { 
-					-webkit-transform: rotate(360deg); 
-					opacity: 1;
-				}
 			}
 		</style>
 	</head>
@@ -142,15 +100,6 @@
 				<li></li><li></li><li></li><li></li>
 				<li></li><li></li><li></li><li></li>
 				<li></li><li></li><li></li><li></li>
-			</ul>
-		</div>
-
-		<div id="lollipop">
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
 			</ul>
 		</div>
 	</body>
