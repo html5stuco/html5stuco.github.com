@@ -220,7 +220,9 @@ title: Building HTML5 Apps
       <li>
         <a href="http://learn.shayhowe.com/html-css/terminology-syntax-intro/" target="_blank">A Beginners Guide to HTML &amp; CSS</a> &ndash; Beautiful resource for those new to web development!
       </li>
-      <li><a href="http://pea.rs/">Pea.rs</a> &ndash; Common patterns (lists, buttons, tabs) and the code that makes them.</li>  
+      <li><a href="http://pea.rs/" target="_blank">Pea.rs</a> &ndash; Common patterns (lists, buttons, tabs) and the code that makes them.</li>  
+      <li><a href="http://www.benjaminkeen.com/misc/bricss/" target="_blank">Responsive Design Test Bookmarklet</a></li>
+      <li><a href="http://www.smashingmagazine.com/2011/07/22/responsive-web-design-techniques-tools-and-design-strategies/" target="_blank">Responsive Web Design Techniques, Tools and Design Strategies</a></li>
     </ul>
   </div>
 </section>
