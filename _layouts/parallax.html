@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+  <!-- Google Analytics -->
+  {% include js/ga.js %}
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  <!-- Parallax -->
+  <script type="text/javascript" src="/js/parallax.js"></script>
+  <script type="text/javascript" src="/js/bp/{{ page.blueprint }}.js"></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/bootstrap_reset.css">
+  <link rel="stylesheet" href="/css/bp/{{ page.blueprint }}.css">
+</head>
+<body>
+	{{ content }}
+</body>
+</html>

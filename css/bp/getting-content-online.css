@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700);
+
+html {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow: hidden;
+  background-image: url('../../img/texture-wood.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}
+
+html > body {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  font-family: 'Arvo', serif;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.75);
+}
+
+img {
+  box-shadow: 0 0 20px #000;  
+}
+
+.center {
+  margin: 0 auto;
+}
+
+#home .content {
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+}
+
+#home h1 {
+  padding-top: 60px;
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+#home .banner {
+  position: relative;
+  min-height: 30%;
+  background: #333;
+}
+
+#home .title {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  height: 75%;
+  width: 500px;
+  margin-left: -250px;
+  padding-left: 250px;
+  background: url('/img/online-icon-pc.png') no-repeat 25px 30px;
+}
+
+#home a {
+  text-decoration: none;
+  color: #17808a;
+}
+
+#home a:hover {
+  color: #23becc;
+}
+
+#home .contact {
+  margin-top: 2em;
+  width: 300px;
+  position: absolute;
+  left: 30%;
+}
