@@ -163,6 +163,7 @@ title: Building HTML5 Apps
       <li><a href="/files/gallery.zip">Gallery Site HTML (week 2)</a></li>
       <li><a href="/files/gallery-week3.zip">Gallery Site w/ CSS (week 3)</a></li>
       <li><a href="/files/candy.html">Candy buttons CSS3 demo (week 5)</a></li>
+      <li><a href="/files/geo-demo">Geolocation demo</a></li>
     </ol>
   </div>
 </section>
