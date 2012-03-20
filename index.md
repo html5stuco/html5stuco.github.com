@@ -95,23 +95,23 @@ title: Building HTML5 Apps
       </li>
       <li>
         <label>Mar 20</label>
+        <span class="topic">HTML5 Touch Interfaces</span>
+        <span class="work"><a class="external" href="http://www.youtube.com/watch?feature=player_embedded&v=lcD9CF0bxyk" target="_blank">Stephen Woods: Creating Responsive HTML5 Touch Interfaces</a></span>
+      </li>
+      <li>
+        <label>Mar 27</label>
         <span class="topic">History API &amp; AJAX</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/history.html" target="_blank">Ch. 11 (Dive in HTML5)</a></span>
       </li>
       <li>
-        <label>Mar 27</label>
+        <label>Apr 3</label>
         <span class="topic">Local storage &amp; Offline Apps</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/storage.html" target="_blank">Ch. 7</a> &amp; <a class="external" href="http://diveintohtml5.info/offline.html" target="_blank">Ch. 8</a> (Dive in HTML5)</span>
       </li>
       <li>
-        <label>Apr 3</label>
+        <label>Apr 10</label>
         <span class="topic">Forms Deep Dive</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
-      </li>
-      <li>
-        <label>Apr 10</label>
-        <span class="topic">Overflow</span>
-        <span class="work"></span>
       </li>
       <li>
         <label>Apr 17</label>
