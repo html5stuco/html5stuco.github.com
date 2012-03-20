@@ -37,9 +37,8 @@ title: Building HTML5 Apps
     <h2>Grading</h2>
     <p>This course is pass/fail (woohoo!)</p>
     <ul class="grading">
-      <li><label>Project 1</label> 15%</li>
-      <li><label>Project 2</label> 15%</li>
-      <li><label>Project 3</label> 40%</li>
+      <li><label>Project 1</label> 30%</li>
+      <li><label>Final Project</label> 40%</li>
       <li><label>Attendance*</label> 30%</li>
     </ul>
     <p class="footnote">*Missing more than 3 class sessions will result in a big ol&#146; fail whale.</p>
@@ -95,24 +94,24 @@ title: Building HTML5 Apps
         <span class="work">(Spring Break)</span>
       </li>
       <li>
-        <label>Mar 19</label>
-        <span class="topic">Project 2 Presentations</span>
-        <span class="work"><strong>Project 2 Due</strong></span>
-      </li>
-      <li>
-        <label>Mar 26</label>
+        <label>Mar 20</label>
         <span class="topic">History API &amp; AJAX</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/history.html" target="_blank">Ch. 11 (Dive in HTML5)</a></span>
       </li>
       <li>
-        <label>Apr 3</label>
+        <label>Mar 27</label>
         <span class="topic">Local storage &amp; Offline Apps</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/storage.html" target="_blank">Ch. 7</a> &amp; <a class="external" href="http://diveintohtml5.info/offline.html" target="_blank">Ch. 8</a> (Dive in HTML5)</span>
       </li>
       <li>
-        <label>Apr 10</label>
+        <label>Apr 3</label>
         <span class="topic">Forms Deep Dive</span>
         <span class="work"><a class="external" href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
+      </li>
+      <li>
+        <label>Apr 10</label>
+        <span class="topic">Overflow</span>
+        <span class="work"></span>
       </li>
       <li>
         <label>Apr 17</label>
@@ -127,7 +126,7 @@ title: Building HTML5 Apps
       <li>
         <label>May 1</label>
         <span class="topic">Final Presentations</span>
-        <span class="work"><strong>Project 3 Due</strong></span>
+        <span class="work"><strong>Final Project Due</strong></span>
       </li>
     </ul>
   </div>
@@ -178,12 +177,8 @@ title: Building HTML5 Apps
         <span class="topic">Project 1: Gallery Site</span>
       </li>
       <li>
-        <label>due Mar 19</label>
-        <span class="topic">Project 2: Media Player</span>
-      </li>
-      <li>
         <label>due May 1</label>
-        <span class="topic">Project 3: Student Choice</span>
+        <span class="topic">Final Project: Student Choice</span>
       </li>
     </ul>
   </div>
