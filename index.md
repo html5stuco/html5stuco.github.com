@@ -96,7 +96,7 @@ title: Building HTML5 Apps
       <li>
         <label>Mar 20</label>
         <span class="topic">HTML5 Touch Interfaces</span>
-        <span class="work"><a class="external" href="http://www.youtube.com/watch?feature=player_embedded&v=lcD9CF0bxyk" target="_blank">Stephen Woods: Creating Responsive HTML5 Touch Interfaces</a></span>
+        <span class="work"><a class="external" href="http://www.youtube.com/watch?v=lcD9CF0bxyk" target="_blank">Stephen Woods: Creating Responsive HTML5 Touch Interfaces</a></span>
       </li>
       <li>
         <label>Mar 27</label>
@@ -115,7 +115,7 @@ title: Building HTML5 Apps
       </li>
       <li>
         <label>Apr 17</label>
-        <span class="topic">Overflow</span>
+        <span class="topic">Intro to Canvas</span>
         <span class="work"></span>
       </li>
       <li>
@@ -162,7 +162,8 @@ title: Building HTML5 Apps
       <li><a href="/files/gallery.zip">Gallery Site HTML (week 2)</a></li>
       <li><a href="/files/gallery-week3.zip">Gallery Site w/ CSS (week 3)</a></li>
       <li><a href="/files/candy.html">Candy buttons CSS3 demo (week 5)</a></li>
-      <li><a href="/files/geo-demo">Geolocation demo</a></li>
+      <li><a href="/files/geo-demo">Geolocation demo (week 6)</a></li>
+      <li><a href="http://diveintohtml5.info/examples/history/adagio.html">History api demo (week 8)</a></li>
     </ol>
   </div>
 </section>
