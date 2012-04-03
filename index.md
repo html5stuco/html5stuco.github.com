@@ -110,17 +110,17 @@ title: Building HTML5 Apps
       </li>
       <li>
         <label>Apr 10</label>
-        <span class="topic">Forms Deep Dive</span>
-        <span class="work"><a class="external" href="http://diveintohtml5.info/forms.html" target="_blank">Ch. 9 (Dive in HTML5)</a></span>
+        <span class="topic">Trendy Tuesday: Parallax &#146;n stuff</span>
+        <span class="work"></span>
       </li>
       <li>
         <label>Apr 17</label>
         <span class="topic">Intro to Canvas</span>
-        <span class="work"></span>
+        <span class="work"><a class="external" href="http://diveintohtml5.info/canvas.html" target="_blank">Ch. 4 (Dive in HTML5)</a></span>
       </li>
       <li>
         <label>Apr 24</label>
-        <span class="topic">Overflow</span>
+        <span class="topic">In-class work session</span>
         <span class="work"></span>
       </li>
       <li>
