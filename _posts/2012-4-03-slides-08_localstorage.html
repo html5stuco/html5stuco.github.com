@@ -1,0 +1,119 @@
+---
+hide: false
+layout: slides
+group: slides
+title: Local Storage and Offline Apps
+
+permalink: /slides/07-localstorage
+category: slides
+---
+
+<article class="dark">
+  <h1>Building HTML5 Apps</h1>
+  <p>Week 11 &ndash; Local Storage and Offline Apps</p>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt c">Don't forget to sign in!</p>
+    <p class="em-txt"><a href="http://goo.gl/M9H65" style="text-decoration: none; "><span style="font-weight: normal; color: #666">goo.gl/</span>M9H65</a></p>
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt c">Dive Into HTML5 - Local Storage</p>
+    <p class="center-txt c"><a href="http://diveintohtml5.info/storage.html">http://diveintohtml5.info/storage.html</a></p>
+  </section>
+</article>
+
+<article>
+  <section>
+    <h3>But why would I put something there?</h3>
+    <ul>
+      <li>Store user preferences</li>
+      <li>Save the state of the application</li>
+      <li>Cache scripts and assets locally (up to 5mb!)</li>
+    </ul>
+  </section>
+</article>
+
+<article>
+  <section>
+    <h3>History</h3>
+    <ul>
+      <li>Cookies</li>
+      <li>Flash LSO (local shared object)</li>
+      <li>Silverlight Isolated Storage, Google Gears</li>
+    </ul>
+    <img class="centered" src="../../img/07-cookie.jpg" alt="Delicious cookies.">
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt">Setup!</p>
+    <code><pre>
+if('localStorage' in window && window['localStorage'] !== null){
+  var store = window.localStorage;
+  /*
+   * Storage things here!
+   */
+}
+    </pre></code>
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt">Save!</p>
+    <code><pre>
+store.setItem('key','value');
+store.setItem('carnegie', 'mellon');
+
+store.getItem('key'); // Returns 'value'
+store.getItem('carnegie'); // Returns 'mellon'
+    </pre></code>
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt">localStorage is an object...</p>
+    <code><pre>
+store['molly'] = 'samuels';
+store.brian = 'yee';
+
+store['molly']; // Returns 'samuels'
+store.brian; // Returns 'yee'
+    </pre></code>
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="em-txt">...but you can't store them</p>
+    <code><pre>
+var foods = {
+  'fruit':'apple',
+  'meat':'steak'
+}
+store['noms'] = foods;
+store['noms']; // returns [object Object] :(
+
+store['noms'] = JSON.stringify(foods);
+store['noms']; // Returns our foot object!
+    </pre></code>
+  </section>
+</article>
+
+<article>
+  <section>
+    <p class="center-txt">In the wild...</p>
+
+    <img class="centered" src="../../img/07-youtube.png" alt="Some data stored on YouTube.">
+
+    <p class="center-txt">YouTube stores the volume and mute status.</p>
+
+  </section>
+</article>
