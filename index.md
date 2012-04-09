@@ -164,6 +164,7 @@ title: Building HTML5 Apps
       <li><a href="/files/candy.html">Candy buttons CSS3 demo (week 5)</a></li>
       <li><a href="/files/geo-demo">Geolocation demo (week 6)</a></li>
       <li><a href="http://diveintohtml5.info/examples/history/adagio.html">History api demo (week 8)</a></li>
+      <li><a href="/files/parallax">Parallax demo (week 11)</a></li>
     </ol>
   </div>
 </section>
