@@ -17,20 +17,94 @@
       body {
         background: #e6f0a3; /* Old browsers */
         background: linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 100%);
+        text-align: center;
+        height: 710px;
+        overflow-x: hidden;
       }
 
       h1 {
+        width: 100%;
         text-align: center;
-        font-size: 80px;
+        font-size: 60px;
         line-height: 1;
         font-weight: bold;
-        letter-spacing: -3px;
+        letter-spacing: 2px;
         color: #FFF;
-        text-shadow: #000 4px 4px, #E5B33D 8px 8px;
+        text-shadow: #E5B33D 4px 4px;
+        position: absolute;
+        top: 100px;
+        display: none;
+      }
+      
+      div {
+        position: absolute;
+        width: 100%;
+      }
+      
+      #top-bun {
+        top: 10px;
+        height: 116px;
+        background: url(img/top-bun.png) no-repeat center center;
+        z-index: 5;
+      }
+
+      #cheese {
+        top: 160px;
+        height: 125px;
+        background: url(img/cheese.png) no-repeat center center;
+        z-index: 4;
+      }
+
+      #patty {
+        position: fixed;
+        top: 290px;
+        height: 99px;
+        background: url(img/patty.png) no-repeat center center;
+        z-index: 3;
+      }
+
+      #lettuce {
+        top: 410px;
+        height: 93px;
+        background: url(img/lettuce.png) no-repeat center center;
+        z-index: 2;
+      }
+
+      #bottom-bun {
+        top: 510px;
+        height: 100px;
+        background: url(img/bottom-bun.png) no-repeat center center;
+        z-index: 1;
       }
     </style>
   </head>
   <body>
-    <h1>Parallax Burgers: Revealed</h1>
+    <h1>Burger</h1>
+    <div id="top-bun"></div>
+    <div id="cheese"></div>
+    <div id="patty"></div>
+    <div id="lettuce"></div>
+    <div id="bottom-bun"></div>
+
+    <script>
+      $(window).bind('scroll',function(e){
+        parallaxScroll();
+      });
+ 
+      function parallaxScroll(){
+        var scrolled = $(window).scrollTop();
+        console.log(scrolled);
+        $('#top-bun').css('top',(10+scrolled*5)+'px');
+        $('#cheese').css('top',(160+scrolled*3)+'px');
+        $('#lettuce').css('top',(410-scrolled*.6)+'px');
+        $('#bottom-bun').css('top',(510-scrolled*2)+'px');
+
+        if (scrolled > 55) {
+          $('h1').fadeIn();
+        } else {
+          $('h1').fadeOut();
+        }   
+      }
+    </script>
   </body>
 </html>
