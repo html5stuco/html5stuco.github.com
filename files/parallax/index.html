@@ -80,11 +80,13 @@
   </head>
   <body>
     <h1>Burger</h1>
-    <div id="top-bun"></div>
-    <div id="cheese"></div>
-    <div id="patty"></div>
-    <div id="lettuce"></div>
-    <div id="bottom-bun"></div>
+    <section id="burger">  
+      <div id="top-bun"></div>
+      <div id="cheese"></div>
+      <div id="patty"></div>
+      <div id="lettuce"></div>
+      <div id="bottom-bun"></div>
+    </section>
 
     <script>
       $(window).bind('scroll',function(e){
@@ -93,11 +95,12 @@
  
       function parallaxScroll(){
         var scrolled = $(window).scrollTop();
-        console.log(scrolled);
+
         $('#top-bun').css('top',(10+scrolled*5)+'px');
         $('#cheese').css('top',(160+scrolled*3)+'px');
         $('#lettuce').css('top',(410-scrolled*.6)+'px');
         $('#bottom-bun').css('top',(510-scrolled*2)+'px');
+
 
         if (scrolled > 55) {
           $('h1').fadeIn();
