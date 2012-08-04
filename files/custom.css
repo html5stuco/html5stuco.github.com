@@ -4,7 +4,7 @@
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
-header.info {
+header h2 {
 	display: none;
 }
 .wufoo input.text, .wufoo textarea.textarea {
