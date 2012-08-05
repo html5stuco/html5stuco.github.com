@@ -32,10 +32,23 @@ form span.req {
 	padding: 0;
 }
 
+form li {
+	padding: 3px 0;
+}
+
 form li label.desc,
 form li div {
 	display: inline;
 	vertical-align: top;
+}
+
+.wufoo input#Field1 {
+	width: 250px;
+}
+
+.wufoo input#Field2 {
+	width: 50px;
+	margin-left: 5px;
 }
 
 ul #errorLi {
