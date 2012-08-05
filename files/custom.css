@@ -22,10 +22,10 @@ header h2 {
 }
 
 form span.req {
-	display: none;
+	visibility: hidden;
 }
 
-form li label,
+form li label.desc,
 form li div {
 	display: inline;
 	vertical-align: top;
