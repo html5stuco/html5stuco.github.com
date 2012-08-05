@@ -2,16 +2,16 @@
 
 .wufoo {
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 13px;
 }
 header h2 {
 	display: none;
 }
 
 .wufoo input.text {
-	border-top-width: 0;
+	border: 0px solid #fff;
 	border-bottom: 1px solid #444;
-	padding: 4px;
+	padding: 0 0 1px 0;
 } 
 
 .wufoo textarea.textarea {
@@ -19,7 +19,7 @@ header h2 {
 	padding: 4px;
 	background: #fff;
 	min-width: 300px;
-	height: 100px;
+	height: 60px;
 	display: block;
 }
 
@@ -29,6 +29,7 @@ form span.req {
 
 .wufoo label.desc {
 	font-weight: normal;
+	padding: 0;
 }
 
 form li label.desc,
